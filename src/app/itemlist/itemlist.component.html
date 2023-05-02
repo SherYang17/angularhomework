@@ -1,0 +1,11 @@
+<p>itemlist works!</p>
+<!-- <ul>
+    <li *ngFor="let item of items">{{ item }}</li>
+  </ul> -->
+
+  <p>itemlist works!</p>
+<ul>
+  <li *ngFor="let item of items">
+    <strong>{{ item.name }}</strong>: {{ item.description }}
+  </li>
+</ul>

@@ -2,15 +2,17 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { ItemlistComponent } from './itemlist/itemlist.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ItemlistComponent
   ],
   imports: [
     BrowserModule
   ],
-  providers: [],
+  providers: [ItemlistComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
